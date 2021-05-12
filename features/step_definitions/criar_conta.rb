@@ -3,7 +3,7 @@ Selenium::WebDriver::Chrome.driver_path="C:/tools/chrome-webdriver/90/chromedriv
 Dado('o site do Facebook') do
     @driver = Selenium::WebDriver.for :chrome
     @driver.get "http://www.google.com"
-    SLEEP 3
+    SLEEP 5
 end
   
   Quando('apresentar o campo Criar Nova conta') do
